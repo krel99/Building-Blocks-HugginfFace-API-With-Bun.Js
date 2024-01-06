@@ -1,0 +1,15 @@
+{
+  "name": "huggingfaceinterference",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@huggingface/inference": "^2.6.4",
+    "colors": "^1.4.0"
+  }
+}
